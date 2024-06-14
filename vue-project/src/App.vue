@@ -729,8 +729,13 @@ import TheWelcome from './components/TheWelcome.vue'
 }
 
 .links {
+  width: ;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   list-style: none;
+  background-color: ;
 }
 
 .links li {
@@ -972,11 +977,11 @@ border-radius: 50px;
   position: ;
   background-color: #FFFFFF;
   height: ;
-  width: ;
+  width: 10vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-direction: ;
+  flex-direction: row;
   border-left: calc((366px - (100px * 3)) / 3) solid #FFFFFF;
  
 }
