@@ -1,0 +1,873 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  background: #fff;
+  border: 5px solid purple;
+  width: 1440px;
+  height: 3353px;
+  font-family: "";
+  overflow-x: hidden;
+  background-image:url("https://i2.wp.com/www.lowpolygonart.com/wp-content/uploads/2017/12/Visions-of-Grandeur-100-Vertices.jpeg?fit=840%2C525&ssl=1")
+  
+  
+}
+
+
+/* Desktop view */
+.navbar {
+  width: ;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1288px;
+  height: 44px;
+  left: 76px;
+  top: 34px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#toggler {
+  display: none;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links li {
+  margin-right: 1rem auto;
+  text-indent: 12px;
+}
+
+.links li a {
+  text-decoration: none;
+  letter-spacing: -0.5px;
+  /* Become a Dealer */
+  ;/* Find Dealer */
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #606060;
+}
+
+.links li a:hover {
+  color: #000;
+}
+
+
+@keyframes fadeIn {
+  to {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+  
+/* Group 1321315080 */
+.links3 {
+  background: #FFFFFF;
+  position: relative;
+  width: 1288px;
+  height: 1720px;
+  left: 76px;
+  top: 393.93px;
+}
+
+.sec1 {
+  background:#FFFFFF;
+  position: relative;
+  width: 304px;
+  height: 430px;
+  /* Rectangle 2201 */
+  display: flex;
+  align-items: ;
+  justify-content: center;
+  flex-direction: ;
+  box-sizing: border-box;
+  
+}
+
+.row{
+  width: 1288px;
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  ;
+
+} 
+
+/* Rectangle 2203 */
+.circle{
+  width: 300px;
+  height: 202px;
+  position: absolute;
+  top: 0px;
+  background-color: grey;
+  border-radius: 12px 12px 0px 0px;
+  margin-left: ;
+}
+
+.textbox{
+  width: 300px;
+  height: 202px;
+  position: absolute;
+  top: 100%;
+  
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 12px 12px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+  
+} 
+
+.features{
+  /* Group 1321315078 */
+  width: 272px;
+  height: 168px;
+  position: absolute;
+  background-color: white;
+  
+  
+}
+
+.one{
+  /* Petrol */
+position: absolute;
+bottom: 0px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 43px;
+/* identical to box height, or 154% */
+color: #000000;
+}
+
+.two{
+  /* Petrol */
+position: absolute;
+bottom: 0px;
+right: 0px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 43px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.three{
+  
+position: absolute;
+top: 0px;
+left: 2px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+color: #0D0D0D;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.four{
+  /* 120 00KM */
+position: absolute;
+top: 0px;
+right: 2px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+color: #0D0D0D;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.five{  
+/* 2024 Toyota Hilux */
+position: absolute;
+top: 50%;
+left: 0px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 31px;
+/* or 142% */
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #0D0D0D;
+}
+
+
+button{
+  /* login btn */
+position: absolute;
+top: 0px;
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+gap: 10px;
+width: 167px;
+height: 44px;
+right: 0px;
+border: 1.5px solid #00CDFE;
+border-radius: 50px;
+}
+
+
+.logo{
+  /* CARS4NAM */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  color: #535252;
+}
+
+
+
+
+.parentlinks{
+/* Group 1321314891 */
+    width: 366px;
+    height: 44px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: ;
+    border-left: 110px solid #FFFFFF;
+}
+
+
+
+.frstbtns{
+  position: ;
+  background-color: #FFFFFF;
+  height: ;
+  width: ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: ;
+  border-left: calc((366px - (100px * 3)) / 3) solid #FFFFFF;
+ 
+}
+
+.brdarrow{
+  background: #FFFFFF;
+  border: 1.2px solid #00CDFE;
+  border-radius: 70px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+  box-sizing: border-box;
+
+}
+
+
+
+.five2{
+/* 2024 Toyota Hilux */
+position: absolute;
+top: 50%;
+left: 0px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 31px;
+/* or 142% */
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #0D0D0D;
+}
+
+.links2 {
+  /* Brand */
+  width: 40px;
+  height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+a {
+   /* 16/regulat */
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #606060;
+}
+
+
+
+
+
+
+.button2{
+/* Frame 364 */
+
+/* Auto layout */
+  position: ;
+  right: 6.7px;
+  top: calc((66px - 51.9px) / 2);
+  width: 128px;
+  height: 50px;
+  background: #00CDFE;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.parentlinks2{
+/* Group 356 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #FFFFFF;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    width: 245.25px;
+    height: 36px;
+    
+
+    
+}
+
+.searchbox{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 26px;
+    top: 32%;
+    width: 133px;
+    height: 24px;
+    background: #00CDFE;
+    display: flex;
+    text-align: justify;
+
+}
+.brandbox{
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 24px;
+  width: 70px;
+  border-left: calc(12.625px) solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+
+
+.arrow2{
+  /* arrow */
+  width: 18px;
+  height: 18px;
+  
+
+}
+
+
+.price{
+  position: absolute;
+  right: 30px;
+  
+}
+
+.brand{
+  
+  position: absolute;
+  left: 15px;
+  /* Brand */
+}
+
+
+
+  
+
+
+  
+.nav2parent{
+  /* Frame 364 */
+  /* Auto layout */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    width: 851px;
+    height: 66px;
+    left: 296px;
+    top: 109px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  
+  
+.sortbyprice{
+  box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 18px;
+    gap: 10px;
+    position: absolute;
+    width: 144px;
+    height: 39px;
+    left: 1210px;
+    top: 322.93px;
+    border: 1.5px solid #DADADA;
+    border-radius: 4px;
+    z-index: 3;
+}
+
+
+
+.arrow{
+  /* arrow */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: ;
+  padding: calc((30px - 18px) / 2.32);
+  gap: 7px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: ;
+  top: ;
+  background: #FFFFFF;
+  border: 1.05px solid #E8E8E8;
+  border-radius: 70px;
+}
+
+.sortarrow{
+  /* arrow */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: ;
+  padding: calc((30px - 18px) / 2.32);
+  gap: 7px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: ;
+  top: ;
+  background: #FFFFFF;
+  border-radius: 70px;
+  margin-right: 5px;
+
+}
+
+.padarrow{
+  /* arrow */
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 7px;
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1.05px solid #E8E8E8;
+  border-radius: 70px;
+  position: ;
+
+}
+
+
+
+.divider{
+/* devider line */
+position: absolute;
+width: 1287.5px;
+height: 0px;
+left: 76px;
+top: 207px;
+border: 1px solid #CDCDCD;
+}
+
+
+.search-container{
+  background-color: #FFFFFF;
+  /* Search your vehicle | */
+
+  width: 133px;
+  height: 24px;
+
+  /* 16/regulat */
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+/* identical to box height, or 150% */
+
+  color: #898989;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.btn{
+  opacity: 0;
+}
+
+.fltr{
+  
+  gap: 12px;
+  width: 133px;
+  height: 52px;
+  background: #F4F4F4;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+
+
+
+
+.links4{
+  display: flex;
+  list-style: none;
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  justify-content: space-between;
+  text-indent: 2px;
+}
+.links4 li a {
+  position: ;
+  color: green;
+  /* 16/regulat */
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 74px;
+  text-transform: capitalize;
+  letter-spacing: ;
+  
+  
+  
+}
+
+.fltrparent{
+  /* filter btn */
+ position: absolute;
+ top: 246px;
+ /* Auto layout */
+ display: flex;
+ flex-direction: row;
+ align-items: start;
+ justify-content: space-between;
+ padding: 0px 0px 12px 0px;
+ gap: 12px;
+ width: 1240.5px;
+ height: 52px;
+ left: 76px;
+ 
+ background: FFFFFF;
+ border-radius: 6px;
+  
+}
+
+
+ 
+
+.ctnav{
+ display: flex;
+ justify-content: space-between;
+ align-items: start;
+ flex-direction: row;
+ position: ;
+ width: 1049.05px;
+ height: 52px;
+ background: #FFFFFF;
+ box-sizing: border-box;
+ 
+ 
+}
+
+
+
+.categories{
+  width: ;
+  height: 43.43px;
+  background: #FFFFFF;
+  border-left: 0px solid purple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  opacity: ;
+ 
+}
+
+
+
+
+
+
+/* ads space */
+
+.adcntnr{
+  /* ads space */
+  position: absolute;
+  width: 1287px;
+  height: 523.69px;
+  left: 76px;
+  top: 2313.93px;
+  background-color: green;
+
+}
+
+
+.footer{
+  /* footer */
+  position: absolute;
+  width: 1440px;
+  height: 395px;
+  bottom: 0px;
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+}
+
+
+.footrcntr1{
+  /* Group 1321314804 */
+
+  position: relative;
+  width: 236px;
+  height: 156.95px;
+  background-color: #F7F7F7;
+  border-left:  calc((1440px - (236px + 716px)) / 6) solid #F7F7F7;
+  border-top:  calc((395px - 200px) / 3) solid #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+
+}
+
+
+.footrcntr2{
+  /* Group 1321314804 */
+
+  position: relative;
+  width: 716px;
+  height: 200px;
+  border-right:  calc((1440px - (236px + 716px)) / 6) solid #F7F7F7;
+  border-top:  calc((395px - 200px) / 3) solid #F7F7F7;
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: ;
+
+
+
+}
+.flogo{
+  width: 236px;
+  height: calc((156.95px - 80px) / 2);
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: ;
+}
+
+.ftrtext1{
+  /* St Fosila, 29 forst street, 4th Mexico city, Mexico 283892 */
+  position: relative;
+  width: 236px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: ;
+
+}
+
+.fsocial{
+  position: relative;
+  width: 236px;
+  height: calc((156.95px - 80px) / 2);
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  flex-direction: ;
+}
+
+
+
+  
+
+
+ 
+
+
+
+
+.ftrtext2{
+
+  position: ;
+  width: 117px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ftxt{
+  color: #0D0D0D;
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+
+}
+
+
+
+
+
+.fheadr1, .fheadr2, .fheadr3 {
+  background-color: #00CDFE;
+ 
+}
+
+h2{
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  /* identical to box height, or 175% */
+  color: #0D0D0D;
+}
+
+.ftrtext3{
+  position: ;
+  width: 108px;
+  height: 173px;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ftrtext4{
+  position: ;
+  width: 225px;
+  height: 105px;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  
+
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
